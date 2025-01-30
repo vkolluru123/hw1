@@ -39,6 +39,10 @@ class ULListStr {
    */
   ~ULListStr();
 
+  /* I AM ADDING FOR DEBUG PURPOSES */
+  /* prints list elements */
+  void printlist() const;
+
   /**
    * Returns the current number of items in the list (NOT the number of nodes)
    *   - MUST RUN in O(1)
